@@ -13,7 +13,7 @@ class HSBC implements Bank{
 }
 
 class CLass{
-    public static void main(String args[]){
+    public static void main(String[] args){
         Bank b;
         b = new Citi ();      // concrete class object
         System.out.println("Citi Rate of Interest is: "+b.getInterestRate()+"%");
