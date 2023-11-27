@@ -1,9 +1,6 @@
 package Selenium;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -33,7 +30,6 @@ public class YouTubeTest extends  DriverSetup{
 
             Actions actions = new Actions(driver);
             actions.sendKeys(Keys.ENTER).perform();
-
             /*WebElement searchKey = driver.findElement(By.xpath("//button[@id='search-icon-legacy']"));
             searchKey.click();*/
 
