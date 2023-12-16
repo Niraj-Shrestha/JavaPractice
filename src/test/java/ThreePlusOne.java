@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ThreePlusOne {
     public static void main(String[] args) {
-        int i = 7;
+        int i = 9;
 
         List<Integer> items = new ArrayList<>();
 
